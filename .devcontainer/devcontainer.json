@@ -1,0 +1,8 @@
+{
+  "name": "Node Unblocker",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "npm install"
+}
